@@ -1,8 +1,12 @@
 import React from 'react'
+import Navbar from '../Nav/Navbar'
 
 const Home = () => {
   return (
-    <div className='flex bg-slate-400'>En construcción</div>
+    <>
+        <Navbar />
+    </>
+    
   )
 }
 
