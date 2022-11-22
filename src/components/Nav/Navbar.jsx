@@ -1,10 +1,14 @@
 import React from "react";
+
+
 import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
-    <div className="flex justify-between items-center h-24 w-full mx-auto text-white bg-slate-600 px-4">
-      <h1 className="w-full text-3xl font-bold text-[#aac5bd]">EL LOGO</h1>
+    <div className="flex w-full justify-between items-center h-20 absolute z-10 text-black font-bold bg-slate-100">
+      <div>
+        <h1>EsperanzaTV.</h1>
+      </div>
       <ul className="flex justify-between items-center">
         <li className="p-4">
           <Link to="/">Home</Link>
@@ -13,13 +17,13 @@ const Navbar = () => {
           <Link to="/about">Conocenos</Link>
         </li>
         <li className="p-4">
-          <Link to="/nada">Servicios</Link>
+          <Link to="/servicios">Servicios</Link>
         </li>
         <li className="p-4">
-          <Link to="/nada">Enlaces</Link>
+          <Link to="/enlaces">Enlaces</Link>
         </li>
         <li className="p-4">
-          <Link to="/nada">Contáctenos</Link>
+          <Link to="/contactenos">Contáctenos</Link>
         </li>
       </ul>
     </div>
