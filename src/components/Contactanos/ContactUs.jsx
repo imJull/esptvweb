@@ -3,10 +3,10 @@ import Navbar from "../Nav/Navbar";
 
 const ContactUs = () => {
   return (
-    <div>
+    <>
       <Navbar />
-      <div className="w-full h-screen bg-[#072a40] flex justify-center items-center p-4">
-        <form className="flex flex-col max-w-[600px] w-full">
+      <div className="sm:w-full h-full md:w-full h-screen lg:w-full h-screen bg-[#072a40] flex justify-center items-center p-[100px]">
+        <form className="flex flex-col max-w-[600px] w-full mt-[200px]">
           <div className="pb-8">
             <p className="text-4xl font-bold inline border-b-4 border-[#18b7be] text-gray-300">
               Contact Us
@@ -35,7 +35,7 @@ const ContactUs = () => {
           </button>
         </form>
       </div>
-    </div>
+    </>
   );
 };
 
