@@ -8,7 +8,7 @@ const Header = () => {
         <div className="text-white font-bold uppercase text-4xl z-50 ">Present truth for</div>
         <br />
         <div className="text-white font-bold text-lg uppercase z-50">the last generation</div>
-        <button className=" transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 text-black border-2 hover:bg-[#072a40] hover:border-[#072a40] px-4 py-3 my-8 mx-auto flex items-center z-50">
+        <button href="https://www.youtube.com/watch?v=zt-Q0wvdmfo&ab_channel=LuisitoComunica" className=" transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 text-black border-2 hover:bg-[#072a40] hover:border-[#072a40] px-4 py-3 my-8 mx-auto flex items-center z-50">
             Watch Us
           </button>
       </div>
