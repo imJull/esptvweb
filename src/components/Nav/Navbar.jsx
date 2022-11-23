@@ -9,7 +9,7 @@ const Navbar = () => {
       <div>
         <h1>EsperanzaTV.</h1>
       </div>
-      <ul className="flex justify-between items-center">
+      <ul className="hidden lg:flex justify-between items-center">
         <li className="p-4">
           <Link to="/">Home</Link>
         </li>
@@ -28,7 +28,7 @@ const Navbar = () => {
       </ul>
 
       {/*Nav lateral de redes sociales */}
-      <div className="hidden lg:flex fixed flex-col top-[80%] left-[-3px]">
+      <div className="hidden lg:flex fixed flex-col bottom-[30px] left-[-5px]">
         <ul>
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600">
             <a
@@ -48,7 +48,7 @@ const Navbar = () => {
               YouTube <FaYoutube size={30} />
             </a>
           </li>
-          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500">
+          <li className="max-w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500">
             <a
               target="_blank"
               className="flex justify-between items-center w-full text-gray-300"
